@@ -1,0 +1,76 @@
+.titleCity {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.imgCity {
+  width: 50px;
+  max-width: 100%;
+  height: 50px;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  border-top: 1px solid rgba(110, 114, 120, 0.2);
+}
+.modalForLabel {
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.modalFormFieldFesc {
+  display: block;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: rgb(15, 15, 15);
+  margin-bottom: 5px;
+}
+
+.modalFormInput {
+  width: 100%;
+  height: 40px;
+  padding-left: 20px;
+  border: 1px solid rgba(110, 114, 120, 0.2);
+  border-radius: 2px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modalFormInput:active,
+.modalFormInput:focus {
+  border: 1px solid rgb(22, 149, 253);
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(110, 114, 120, 0.2);
+}
+
+.modalFormBtn {
+  width: 100px;
+  height: 40px;
+  margin-left: 20px;
+  color: rgb(19, 19, 19);
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  border: none;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modalFormBtn:hover,
+.modalFormBtn:focus {
+  color: rgb(250, 250, 250);
+  background-color: rgb(22, 149, 253);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}

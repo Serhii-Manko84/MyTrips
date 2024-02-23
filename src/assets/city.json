@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Amsterdam",
+    "image": "amsterdam.png"
+  },
+  {
+    "name": "Ankara",
+    "image": "ankara.png"
+  },
+  {
+    "name": "Bangkok",
+    "image": "bangkok.png"
+  },
+  { "name": "Barcelona", "image": "barcelona.png" },
+  {
+    "name": "Beirut",
+    "image": "beirut.png"
+  },
+  {
+    "name": "Berlin",
+    "image": "berlin.png"
+  },
+  {
+    "name": "Brussels",
+    "image": "brussels.png"
+  },
+  {
+    "name": "Budapest",
+    "image": "budapest.png"
+  },
+  {
+    "name": "Copenhagen",
+    "image": "copenhagen.png"
+  },
+  {
+    "name": "Dublin",
+    "image": "dublin.png"
+  },
+  {
+    "name": "Helsinki",
+    "image": "helsinki.png"
+  },
+  {
+    "name": "Jerusalem",
+    "image": "jerusalem.png"
+  },
+  {
+    "name": "Lisbon",
+    "image": "lisbon.png"
+  },
+  {
+    "name": "London",
+    "image": "london.png"
+  },
+  {
+    "name": "Luxembourg",
+    "image": "luxembourg.png"
+  },
+  {
+    "name": "New-York",
+    "image": "new-york.png"
+  },
+  {
+    "name": "Paris",
+    "image": "paris.png"
+  },
+  {
+    "name": "Prague",
+    "image": "prague.png"
+  },
+  {
+    "name": "Riga",
+    "image": "riga.png"
+  },
+  {
+    "name": "Rome",
+    "image": "rome.png"
+  },
+  {
+    "name": "Seoul",
+    "image": "seoul.png"
+  },
+  {
+    "name": "Singapore",
+    "image": "singapore.png"
+  },
+  {
+    "name": "Sofia",
+    "image": "sofia.png"
+  },
+  {
+    "name": "Tallinn",
+    "image": "tallinn.png"
+  },
+  {
+    "name": "Tbilisi",
+    "image": "tbilisi.png"
+  },
+  {
+    "name": "Tokyo",
+    "image": "tokyo.png"
+  },
+  {
+    "name": "Vienna",
+    "image": "vienna.png"
+  },
+  {
+    "name": "Vilnius",
+    "image": "vilnius.png"
+  },
+  {
+    "name": "Warsaw",
+    "image": "warsaw.png"
+  }
+]
