@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 import css from "./TodayWeather.module.css";
+import IconosWeather from "../../assets/icons/IconosWeather";
 
 const TodayWeather = ({ selectedTrip }) => {
   const [todayWeather, setTodayWeather] = useState(null);
@@ -36,9 +37,16 @@ const TodayWeather = ({ selectedTrip }) => {
       {todayWeather && (
         <div className={css.boxDescrWeatherToday}>
           <p> {todayWeather.datetime}</p>
-          <p className={css.temp}> {todayWeather.temp} &#176;C</p>
+          <div className={css.wrapperTemp}>
+            <div className={css.iconWeather}>
+              <IconosWeather icon={todayWeather.icon} />
+            </div>
+            <p className={css.temp}>
+              {todayWeather.temp} <sup className={css.tempSup}>&#176;C</sup>
+            </p>
+          </div>
+
           <h4 className={css.city}> {selectedTrip.city}</h4>
-          <p> {todayWeather.conditions}</p>
         </div>
       )}
     </div>

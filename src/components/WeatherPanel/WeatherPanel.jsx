@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 import css from "./WeatherPanel.module.css";
+import IconosWeather from "../../assets/icons/IconosWeather";
 
 const WeatherPanel = ({ selectedTrip }) => {
   const [forecastData, setForecastData] = useState(null);
@@ -40,18 +41,12 @@ const WeatherPanel = ({ selectedTrip }) => {
           <h3 className={css.titleWeek}>Week</h3>
           <ul className={css.itemWeather}>
             {forecastData.map((days, index) => (
-              <li className={ css.listItem} key={index}>
+              <li className={css.listItem} key={index}>
                 <p> {days.datetime}</p>
-                <p className={ css.temp}> {days.temp} &#176;C</p>
-                <p> {days.conditions}</p>
-                {/* <span>
-                  {days.icon && (
-                    <img
-                      src={`URL_TO_YOUR_WEATHER_ICONS/${days.icon}.jpg`}
-                      alt={`Weather Icon for ${days.conditions}`}
-                    />
-                  )}
-                </span> */}
+                <p className={css.temp}> {days.temp} &#176;C</p>
+                <div className={css.spanIcon}>
+                  <IconosWeather icon={days.icon} />
+                </div>
               </li>
             ))}
           </ul>

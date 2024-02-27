@@ -13,7 +13,6 @@
 .boxDescrWeatherToday {
   font-weight: 500;
   font-size: 15px;
-  letter-spacing: 1px;
   text-transform: uppercase;
   color: #333136;
   display: flex;
@@ -21,7 +20,7 @@
   justify-content: center;
   flex-direction: column;
   width: 200px;
-  height: 600px;
+  height: 500px;
 }
 
 .boxDescrWeatherToday p,
@@ -30,14 +29,32 @@ h4 {
   color: #fff;
 }
 
+.wrapperTemp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
 .temp {
   font-weight: 900;
-  font-size: 30px;
+  font-size: 50px;
   line-height: 60px;
+  white-space: nowrap;
+}
+
+.tempSup {
+  font-weight: 200;
+  font-size: 20px;
 }
 
 .city {
   font-weight: 400;
   font-size: 20px;
   line-height: 40px;
+}
+
+.iconWeather {
+  width: 60%;
 }
